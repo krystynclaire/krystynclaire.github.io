@@ -1,0 +1,392 @@
+body {
+    font-family: open sans, sans-serif;
+    font-weight: 400;
+    background-color: rgba(153, 143, 133, .15);
+    overflow-x: hidden;
+    margin: 0px;
+}
+
+a {
+    font-family: open sans, sans-serif;
+    font-weight: 700;
+    color: #b2bc6c;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #998f85;
+    text-decoration: none;
+}
+
+header {
+    height: 250px;
+}
+
+#emanouil {
+    font-family: raleway, sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #b2bc6c;
+    width: 250px;
+    position: relative;
+    top: -80px;
+    left: 140px;
+}
+
+#logo {
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+nav {
+    float: right;
+    margin-right: 30px;
+}
+
+nav, li {
+    display: inline;
+    padding: 20px;
+    position: relative;
+    top: -72px;
+}
+
+nav a {
+    font-family: raleway, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #998f85;
+    text-decoration: none;
+}
+
+nav a:hover {
+    font-family: raleway, sans-serif;
+    color: #b2bc6c;
+    text-decoration: none
+}
+
+section {
+    background-color: #ffffff;
+    position: relative;
+    top: -120px;
+    padding-top: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 100%;
+    height: 1108px;
+}
+
+/* HEADERS/TITLES */
+
+h1 {
+    font-family: raleway, sans-serif;
+    font-weight: 400;
+    font-size: 80px;
+    color: rgba(178, 188, 108, .5);
+}
+
+.left {
+    width: 500px;
+    position: absolute;
+    left: 50;
+    top: 0px;
+    text-align: right;
+}
+
+h2 {
+    font-family: raleway, sans-serif;
+    font-weight: 500;
+    font-size: 95px;
+    color: rgb(178, 188, 108);
+}
+
+.right {
+    width: 800px;
+    position: absolute;
+    left: 580px;
+    top: 150px;
+    text-align: left;
+}
+
+h3 {
+    font-family: raleway, sans-serif;
+    font-weight: 500;
+    font-size: 95px;
+    color: #998f85;
+}
+
+/* BODY TEXT */
+
+.text {
+    font-family: open sans, sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    color: #5c5f65;
+    width: 710px;
+    position: absolute;
+    left: 580px;
+    top: 375px;
+}
+
+
+/* FOOTER */
+
+#facebook {
+    background-image: url('images/facebook.png');
+    background-repeat: no-repeat;
+    height: 42px;
+    width: 42px;
+    padding-left: 20px;
+}
+
+#facebook:hover {
+    background-image: url('images/facebookhover.png');
+    background-repeat: no-repeat;
+    height: 42px;
+    width: 42px;
+    padding-left: 20px;
+}
+
+#insta {
+    background-image: url('images/instagram.png');
+    background-repeat: no-repeat;
+    height: 42px;
+    width: 42px;
+}
+
+#insta:hover {
+    background-image: url('images/instagramhover.png');
+    background-repeat: no-repeat;
+    height: 42px;
+    width: 42px;
+}
+
+.social{
+    display:inline-block;
+}
+
+footer {
+    padding: 20px;
+    position: absolute;
+    top: 5940px;
+    left: 42%;
+    display: block;
+    font-family: open sans, sans-serif;
+    font-size: 11px;
+    color: #998f85;
+    text-align: center;
+}
+
+/* Greenery */
+
+#greenerybg {
+    background-color: rgba(153, 143, 133, .15);
+    margin: 0px;
+    position: absolute;
+    width: 1500px;
+    height: 700px;
+    top: 1438px;
+}
+
+.greeneryheader {
+    position: absolute;
+    top: 1450px;
+    left: 580px;
+}
+
+.greenerytext {
+    font-size: 18px;
+    line-height: 28px;
+    color: #5c5f65;
+    width: 710px;
+    line-height: 40px;
+    position: absolute;
+    top: 1700px;
+    left: 580px;
+}
+
+#greenerypic {
+    position: absolute;
+    top: 1570px;
+    left: 240px;
+}
+
+/* Masonry */
+
+#masonrybg {
+    background-color: rgba(153, 143, 133, .2);
+    margin: 0px;
+    position: absolute;
+    width: 1500px;
+    height: 875px;
+    top: 2138px;
+}
+
+.masonryheader {
+    position: absolute;
+    top: 2138px;
+    left: 580px;
+}
+
+.masonrytext {
+    font-size: 18px;
+    line-height: 28px;
+    color: #5c5f65;
+    width: 710px;
+    line-height: 40px;
+    position: absolute;
+    top: 2400px;
+    left: 580px;
+}
+
+.description {
+    line-height: 28px;
+}
+
+#masonrypic {
+    position: absolute;
+    top: 2258px;
+    left: 240px;
+}
+
+/* Irrigation */
+
+#irrigationbg {
+    background-color: rgba(153, 143, 133, .25);
+    margin: 0px;
+    position: absolute;
+    width: 1500px;
+    height: 780px;
+    top: 3013px;
+}
+
+.irrigationheader {
+
+    position: absolute;
+    top: 3013px;
+    left: 580px;
+}
+
+.irrigationtext {
+    font-size: 18px;
+    line-height: 28px;
+    color: #5c5f65;
+    width: 710px;
+    line-height: 40px;
+    position: absolute;
+    top: 3270px;
+    left: 580px;
+}
+
+.description {
+    line-height: 28px;
+}
+
+#irrigationpic {
+    position: absolute;
+    top: 3130px;
+    left: 240px;
+}
+
+/* Furnishings */
+
+#furnishbg {
+    background-color: rgba(153, 143, 133, .3);
+    margin: 0px;
+    position: absolute;
+    width: 1500px;
+    height: 680px;
+    top: 3793px;
+}
+
+.furnishheader {
+    position: absolute;
+    top: 3793px;
+    left: 580px;
+}
+
+.furnishtext {
+    font-size: 18px;
+    line-height: 28px;
+    color: #5c5f65;
+    width: 710px;
+    line-height: 40px;
+    position: absolute;
+    top: 4050px;
+    left: 580px;
+}
+
+#furnishpic {
+    position: absolute;
+    top: 3910px;
+    left: 240px;
+}
+
+/* Snow */
+
+#snowbg {
+    background-color: rgba(153, 143, 133, .35);
+    margin: 0px;
+    position: absolute;
+    width: 1500px;
+    height: 720px;
+    top: 4473px;
+}
+
+.snowheader {
+    position: absolute;
+    top: 4473px;
+    left: 580px;
+}
+
+.snowtext {
+    font-size: 18px;
+    line-height: 28px;
+    color: #5c5f65;
+    width: 710px;
+    line-height: 40px;
+    position: absolute;
+    top: 4730px;
+    left: 580px;
+}
+
+#snowpic {
+    position: absolute;
+    top: 4600px;
+    left: 240px;
+}
+
+/* Maintenance */
+
+#mainbg {
+    background-color: rgba(153, 143, 133, .40);
+    margin: 0px;
+    position: absolute;
+    width: 1500px;
+    height: 660px;
+    top: 5193px;
+}
+
+.mainheader {
+    position: absolute;
+    top: 5193px;
+    left: 580px;
+}
+
+.maintext {
+    font-size: 18px;
+    line-height: 28px;
+    color: #5c5f65;
+    width: 710px;
+    line-height: 40px;
+    position: absolute;
+    top: 5450px;
+    left: 580px;
+}
+
+#mainpic {
+    position: absolute;
+    top: 5310px;
+    left: 240px;
+}
+
